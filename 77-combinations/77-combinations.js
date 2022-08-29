@@ -4,7 +4,7 @@
  * @return {number[][]}
  */
 var combine = function(n, k) {
-    let next = new Array(k)
+    const next = new Array(k)
     const fin = [];
     const recAdd = (i=0, j=1) => {
         for(; j <= n - k + i + 1; j++) {
