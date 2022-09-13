@@ -28,9 +28,7 @@ var orangesRotting = function(grid) {
         })
     }
     
-    while(stack.length) {
-        spread(stack.pop())
-    }
+    while(stack.length) spread(stack.pop())
     
     return freshCount ? -1 : maxMins
 }
