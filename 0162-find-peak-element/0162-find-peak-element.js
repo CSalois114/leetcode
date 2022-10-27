@@ -14,7 +14,7 @@ var findPeakElement = function(nums) {
     } else if(nums[mid + 1] > nums[mid]) {
       left = mid + 1
     } else {
-        return mid
+      return mid
     }
   }
 };
